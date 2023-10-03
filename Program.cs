@@ -27,6 +27,12 @@ namespace consoleArray
             {
                 Console.WriteLine(value);
             }
+
+            var arrA = new int[5];
+            var arrB = arrA;
+
+            arrA[0] = 23;
+            Console.WriteLine(arrB[0]);
         }
     }
 }
